@@ -1,4 +1,4 @@
-package com.dianmei;
+package com.dianmei.auth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
