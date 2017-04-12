@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
  * Created by lout on 2017/4/12.
  */
 @Repository
-public interface UserRepository extends CrudRepository<User, String>{
+public interface UserRepository extends CrudRepository<User, String> {
 
 }
