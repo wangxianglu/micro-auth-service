@@ -6,14 +6,17 @@ spring:
     url: jdbc:mysql://localhost:3306/auth_sample
     username: root
     password: wangxianglu
-    initialize: true
+    initialize: false
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+  output:
+    ansi:
+      enabled: always
 server:
   context-path: /uaa
-  port: 5000
+  port: 5001
 logging:
   level:
     org.springframework:
